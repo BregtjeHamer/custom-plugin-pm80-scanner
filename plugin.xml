@@ -6,7 +6,7 @@
     <description>PM80 Scanner</description>
     <license>MIT</license>
     <keywords>cordova,barcode,qrcode,scanner,laser,pm80</keywords>
-    <repo>https://github.com/shineum/cordova-plugin-pm80-scanner.git</repo>
+    <repo>https://github.com/BregtjeHamer/custom-plugin-pm80-scanner.git</repo>
 
     <js-module src="www/pm80scanner.js" name="PM80Scanner">
         <clobbers target="cordova.plugins.pm80scanner" />
