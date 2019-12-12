@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="custom-cordovan-plugin-PM80-scanner"
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+    id="custom-cordova-plugin-PM80-scanner"
     version="1.0.0">
     <name>Custom Cordova plugin PM80 scanner</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
     <repo>https://github.com/BregtjeHamer/custom-plugin-pm80-scanner.git</repo>
- 
-	<js-module src="www/pm80scanner.js" name="PM80Scanner">
+
+    <js-module src="www/pm80scanner.js" name="PM80Scanner">
         <clobbers target="pm80scanner" />
     </js-module>
 
@@ -20,7 +19,7 @@
                 <param name="android-package" value="com.booq.PM80Scanner"/>
             </feature>
         </config-file>
-        <config-file target="AndroidManifest.xml" parent=""app/src/main/manifest/application">
+        <config-file target="AndroidManifest.xml" parent="app/src/main/manifest/application">
           <receiver
               android:name="com.booq.PM80Scanner$ScanResultReceiver"
               android:enabled="true"

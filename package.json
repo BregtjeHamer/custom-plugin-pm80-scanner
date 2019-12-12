@@ -1,12 +1,33 @@
 {
-  "name": "custom-cordovan-plugin-PM80-scanner",
-  "version": "1.0.0",
-  "cordova": {
-    "id": "custom-cordovan-plugin-PM80-scanner",
-    "platforms": [
-      "android",
-      "ios",
-    ]
-  },
-  "description": "Laser scanner for PM80"
+    "name": "custom-cordova-plugin-pm80-scanner",
+    "description": "Laser scanner for PM80",
+    "version": "0.0.8",
+    "homepage": "https://github.com/BregtjeHamer/custom-plugin-pm80-scanner#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BregtjeHamer/custom-plugin-pm80-scanner.git"
+    },
+    "cordova": {
+        "id": "cordova-plugin-pm80-scanner",
+        "platforms": [
+            "android"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+        "barcode",
+        "qrcode",
+        "laser",
+        "pm80",
+        "scanner"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=5.0.0"
+        }
+    ],
+    "author": "ShineUm",
+    "license": "MIT"
 }
