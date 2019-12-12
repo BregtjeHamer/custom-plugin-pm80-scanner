@@ -1,0 +1,64 @@
+{
+  "_from": "cordova-plugin-pm80-scanner",
+  "_id": "cordova-plugin-pm80-scanner@0.0.8",
+  "_inBundle": false,
+  "_integrity": "sha1-tinVpXVbbcUHgljFz4D5vO1HJLY=",
+  "_location": "/cordova-plugin-pm80-scanner",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-pm80-scanner",
+    "name": "cordova-plugin-pm80-scanner",
+    "escapedName": "cordova-plugin-pm80-scanner",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-pm80-scanner/-/cordova-plugin-pm80-scanner-0.0.8.tgz",
+  "_shasum": "b629d5a5755b6dc5078258c5cf80f9bced4724b6",
+  "_spec": "cordova-plugin-pm80-scanner",
+  "_where": "/Users/bregtjehamerr/Documents/WebApp/com.eijsink.booq.webapps",
+  "author": {
+    "name": "ShineUm"
+  },
+  "bugs": {
+    "url": "https://github.com/shineum/cordova-plugin-pm80-scanner/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-pm80-scanner",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Laser scanner for PM80",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=5.0.0"
+    }
+  ],
+  "homepage": "https://github.com/shineum/cordova-plugin-pm80-scanner#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "barcode",
+    "qrcode",
+    "laser",
+    "pm80",
+    "scanner"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-pm80-scanner",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shineum/cordova-plugin-pm80-scanner.git"
+  },
+  "version": "0.0.8"
+}
