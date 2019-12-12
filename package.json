@@ -1,0 +1,12 @@
+{
+  "name": "custom-cordovan-plugin-PM80-scanner",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "custom-cordovan-plugin-PM80-scanner",
+    "platforms": [
+      "android",
+      "ios",
+    ]
+  },
+  "description": "Laser scanner for PM80"
+}
